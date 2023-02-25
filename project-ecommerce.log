@@ -1,0 +1,54 @@
+2023-02-25T10:04:44.762+05:30  INFO 17684 --- [restartedMain] c.p.ecommerce.EcommerceApplication       : Starting EcommerceApplication using Java 17.0.6 with PID 17684 (D:\SpringBoot\ecommerce\target\classes started by 10715944 in D:\SpringBoot\ecommerce)
+2023-02-25T10:04:44.782+05:30  INFO 17684 --- [restartedMain] c.p.ecommerce.EcommerceApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-25T10:04:44.870+05:30  INFO 17684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-25T10:04:44.871+05:30  INFO 17684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-25T10:04:46.030+05:30  INFO 17684 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-25T10:04:46.145+05:30  INFO 17684 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 2 JPA repository interfaces.
+2023-02-25T10:04:47.120+05:30  INFO 17684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1234 (http)
+2023-02-25T10:04:47.138+05:30  INFO 17684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-25T10:04:47.138+05:30  INFO 17684 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-25T10:04:47.253+05:30  INFO 17684 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-25T10:04:47.254+05:30  INFO 17684 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2381 ms
+2023-02-25T10:04:48.499+05:30  INFO 17684 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-25T10:04:48.580+05:30  INFO 17684 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-25T10:04:48.837+05:30  WARN 17684 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-25T10:04:48.989+05:30  INFO 17684 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-25T10:04:49.401+05:30  INFO 17684 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67039b63
+2023-02-25T10:04:49.404+05:30  INFO 17684 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-25T10:04:49.482+05:30  INFO 17684 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-25T10:04:50.360+05:30  INFO 17684 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-25T10:04:50.371+05:30  INFO 17684 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-25T10:04:50.893+05:30  WARN 17684 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-25T10:04:52.103+05:30  INFO 17684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-25T10:04:52.163+05:30  INFO 17684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1234 (http) with context path ''
+2023-02-25T10:04:52.182+05:30  INFO 17684 --- [restartedMain] c.p.ecommerce.EcommerceApplication       : Started EcommerceApplication in 7.914 seconds (process running for 8.621)
+2023-02-25T10:59:03.913+05:30  INFO 11372 --- [restartedMain] c.p.ecommerce.EcommerceApplication       : Starting EcommerceApplication using Java 17.0.6 with PID 11372 (D:\SpringBoot\ecommerce\target\classes started by 10715944 in D:\SpringBoot\ecommerce)
+2023-02-25T10:59:03.917+05:30  INFO 11372 --- [restartedMain] c.p.ecommerce.EcommerceApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-25T10:59:03.984+05:30  INFO 11372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-25T10:59:03.984+05:30  INFO 11372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-25T10:59:05.014+05:30  INFO 11372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-25T10:59:05.107+05:30  INFO 11372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2023-02-25T10:59:06.086+05:30  INFO 11372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1234 (http)
+2023-02-25T10:59:06.101+05:30  INFO 11372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-25T10:59:06.102+05:30  INFO 11372 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-25T10:59:06.210+05:30  INFO 11372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-25T10:59:06.211+05:30  INFO 11372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2226 ms
+2023-02-25T10:59:06.594+05:30  INFO 11372 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-25T10:59:06.662+05:30  INFO 11372 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-25T10:59:06.900+05:30  WARN 11372 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-25T10:59:07.037+05:30  INFO 11372 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-25T10:59:07.451+05:30  INFO 11372 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b61bbb7
+2023-02-25T10:59:07.454+05:30  INFO 11372 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-25T10:59:07.536+05:30  INFO 11372 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-25T10:59:08.641+05:30  INFO 11372 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-25T10:59:08.653+05:30  INFO 11372 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-25T10:59:09.387+05:30  WARN 11372 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-25T10:59:10.898+05:30  INFO 11372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-25T10:59:10.959+05:30  INFO 11372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1234 (http) with context path ''
+2023-02-25T10:59:10.978+05:30  INFO 11372 --- [restartedMain] c.p.ecommerce.EcommerceApplication       : Started EcommerceApplication in 7.628 seconds (process running for 8.371)
+2023-02-25T10:59:49.972+05:30  INFO 11372 --- [http-nio-1234-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25T10:59:49.972+05:30  INFO 11372 --- [http-nio-1234-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-25T10:59:49.974+05:30  INFO 11372 --- [http-nio-1234-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-02-25T10:59:50.004+05:30  WARN 11372 --- [http-nio-1234-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2023-02-25T11:18:44.041+05:30  WARN 11372 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m36s432ms102µs900ns).
+2023-02-25T11:19:42.166+05:30  WARN 11372 --- [http-nio-1234-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
